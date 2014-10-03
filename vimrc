@@ -37,10 +37,12 @@ set mat=5  " Bracket blinking.
 set list
 " Show $ at end of line and trailing space as ~
 set lcs=tab:\ \ ,extends:>,precedes:<
-set novisualbell  " No blinking .
-set noerrorbells  " No noise.
 set laststatus=2  " Always show status line.
- 
+
+" Disable beeping and blinking on error
+set noerrorbells visualbell t_vb=
+autocmd GUIEnter * set visualbell t_vb=
+
 syntax on
 
 if has("autocmd")
