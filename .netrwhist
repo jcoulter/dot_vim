@@ -1,6 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/Users/garyjohnson/Repositories/vegv/explorer-ui'
-let g:netrw_dirhist_2='/Users/garyjohnson/Downloads/PyQt-gpl-5.3.2/QtGui'
-let g:netrw_dirhist_3='/Users/garyjohnson/Library/Application Support/AddressBook/Sources'
-let g:netrw_dirhist_4='/Users/garyjohnson/Repositories/vegv/explorer-ui'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Applications/Arduino.app/Contents/Resources/Java/hardware/teensy/cores/usb_serial_hid'
+let g:netrw_dirhist_2='/Users/garyjohnson/Repositories/Krueger_ios/Oxbow.xcodeproj/xcuserdata/garyjohnson.xcuserdatad'
+let g:netrw_dirhist_3='/Users/garyjohnson/Repositories/Krueger_ios/Oxbow.xcworkspace/xcuserdata/garyjohnson.xcuserdatad'
