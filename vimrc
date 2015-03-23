@@ -54,8 +54,8 @@ endif
 call pathogen#infect()
 
 " Save all backups here, rather than spreading around the file system.
-set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
-set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp,%TEMP%
+set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp,%TEMP%
 
 " Enable Python Intellisense
 autocmd FileType python set omnifunc=pythoncomplete#Complete ts=4 shiftwidth=4
