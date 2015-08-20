@@ -72,3 +72,4 @@ autocmd FileType cucumber set ts=2 shiftwidth=2
 autocmd! BufNewFile,BufRead *.qml setlocal ft=qml
 autocmd! BufNewFile,BufRead *.pde setlocal ft=arduino
 autocmd! BufNewFile,BufRead *.ino setlocal ft=arduino
+autocmd! BufNewFile,BufRead *.kv setlocal ft=kivy
